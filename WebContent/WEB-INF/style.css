@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+*{
+	margin : 0;
+	padding : 0;
+}
+html, body{
+	width : 100%;
+	height: 100%;
+	padding-top: 75px;
+}
+nav{
+	width : 100%;
+	height : 75px;
+	background-color: #eeeee4;
+	position : fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+.logo img{
+	width : 160px;
+	margin : 5 10;
+}
+.login img{
+	width : 40px;
+	display : flex;
+	position : absolute;
+	top : 15px;
+	right : 15px;
+}
+.Main_Index{
+	width : 100%;
+	height : 
+}
+#searchButton{
+	width : 250px;
+	height : 40%;
+	-webkit-appearance : none; /*브라우저 디폴트 스타일 제거*/
+	-moz-appearance : none; /*브라우저 디폴트 스타일 제거*/
+	appearance : none; /*브라우저 디폴트 스타일 제거*/
+	background-color : yello;
+	margin : 0 auto;
+	padding : .5rem 1rem;
+	box-shadow : 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+}
+#searchButton:hover{
+	
+}
+#searchButton:focus{
+	background : var(--button-hover-bg-color);
+	outline: 0;
+}
+#main{
+	margin : 0 auto;
+	width : 80%;
+	height : 80%;
+}
+#tableUpper{
+	font-size: 2.5rem;
+}
+#tableUpper input[type="text"]{
+	width : 70%;
+	height : auto; /*높이값 초기화 */
+	padding :.8em .5em; /*원하는 여백설정, 상하단여백으로 높이조절 */
+} 
+#tableUpper input[type="date"]{
+	width : 40%;
+	height : auto;
+	padding :.8em .5em;
+}
+#tableBelow{
+	font-size : 2rem;
+	text-align : center;
+	margin-top : 15px;
+	padding : 10px 0;
+}
+#tableBelow input[type="number"]{
+	width : 10%;
+	height : auto; /*높이값 초기화 */
+	padding :.8em .5em; /*원하는 여백설정, 상하단여백으로 높이조절 */
+}
+
+
+/* 왼쪽 사이드바 */
+.side_nav{
+	width : 200px;
+	height : 100%;
+	padding-top: 75px;
+	position : fixed;
+	z-index: 1;
+	top : 100px;
+	left : 0;
+	background-color: #AFEEEE;
+	transition : /*투명도*/
+}
+/* 왼쪽 메뉴 끝*/
+
+/* 검색결과 상단 */
+.searchResult1{
+	padding-top : 60px;	
+	padding-left : 250px;
+	background-color : #EEE8AA;
+}
+/* 검색결과 상단 끝*/
+
+/* 검색결과 페이지 */
+.searchResult2{
+	background-color : #F0FFF0;
+	padding : 75 300;
+	
+}
+
+.optionItems{
+	padding-left: 400px;
+	padding-top : 0px;
+	flex-direction : column;
+}
+.airlineImg img{
+	width : 10%;
+	position ; absolute;
+	left : 200px;
+	padding-left: 200px;
+	padding-top : 75px;
+}
+.airplanDetail{
+	right : 10px;
+	top : 350px;
+	position : fixed;
+	z-index: 1;
+}
+/* 검색결과 페이지 끝 */

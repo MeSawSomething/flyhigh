@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>화면설계 실습2</title>
+<link rel="stylesheet" href="style.css">
+<!-- 상단로고 -->
+
+	<nav>
+		<div  class="logo">
+		<img src ="img/logo.jpg" alter="Go Anywhere You Want">
+		</div>
+		<div class="login">
+		<img src ="img/loginIcon.png">
+		</div>
+	</nav>
+
+<!-- 상단로고 끝 -->
+
+<!-- 왼쪽 고정 메뉴  -->
+	<section class="side_nav">
+		<div class ="mainText">필터</div>
+		<div class="">
+			경유 <select>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>회
+			<br><br>
+		최저가 정렬<input type="radio" value="min"><br>
+		최고가 정렬<input type="radio" value="max">
+		</div>
+	</section>
+<!-- 왼쪽 고정 메뉴 끝 -->
+
+<!-- 검색결과 상단 -->
+	<section class="searchResult1">
+		<div class="mainText">Anywhere You Want to be</div>
+			<label for="<%=departCity%>">출발도시 : </label>
+			<input type="text" value="<%=departCity%>" readonly>
+			<label>도착도시 : </label>
+			<input type="text" value="<%=arrivalCity%>" readonly>
+			<p>
+				<label>일시</label>
+				<input type="date" value="<%=departDate%>"> ~
+				<input type="date" value="<%=arrivalDate%>">
+				(0박 0일)
+			</p>		
+		</div>
+	</section>
+<!-- 검색결과 상단 -->
+
+<!-- 검색결과 하단 -->
+	<section class="searchResult2">
+		<div class="airlineImg">
+				<img src="img/airline.png">
+			</div>
+		<div class="optionItems">
+			
+			<label>ETD</label>
+			<input type="date" value="" readonly> 시간 - 
+			<label>ETA</label>
+			<input type="date" value="" readonly> 시간<br>
+			수화물 : 25kg  좌석지정 가능
+			
+			<div class="airplanDetail">
+				항공편명 : AE929
+			</div>
+		</div>
+		
+		<div class="airlineImg">
+				<img src="img/airline.png">
+			</div>
+		<div class="optionItems">
+			
+			<label>ETD</label>
+			<input type="date" value="" readonly> 시간 - 
+			<label>ETA</label>
+			<input type="date" value="" readonly> 시간<br>
+			수화물 : 25kg  좌석지정 가능
+			
+			<div class="airplanDetail">
+				항공편명 : AE929
+			</div>
+		</div>
+		
+		<div class="airlineImg">
+				<img src="img/airline.png">
+			</div>
+		<div class="optionItems">
+			
+			<label>ETD</label>
+			<input type="date" value="" readonly> 시간 - 
+			<label>ETA</label>
+			<input type="date" value="" readonly> 시간<br>
+			수화물 : 25kg  좌석지정 가능
+			
+			<div class="airplanDetail">
+				항공편명 : AE929
+			</div>
+		</div>
+	</section>
+<!-- 검색결과 하단 -->
+</head>
+<body>
+
+</body>
+</html>

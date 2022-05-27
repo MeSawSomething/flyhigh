@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>화면설계 실습</title>
+<link rel="stylesheet" href="style.css">
+<!-- 상단로고 -->
+
+	<nav>
+		<div  class="logo">
+		<img src ="img/logo.jpg" alter="Go Anywhere You Want">
+		</div>
+		<div class="login">
+		<img src ="img/loginIcon.png">
+		</div>
+	</nav>
+
+<!-- 상단로고 끝 -->
+
+</head>
+<body>
+
+<!-- 메인검색 페이지 -->
+<div class = "Main_Index">
+	<form name = "flightSearch" method="post" action="mainSearchResult.jsp">
+		<table id = "main" >
+			
+			<tr id="tableUpper">
+				<th><label for="depart">출발지</label></th>
+				<td><input type="text" id="departCity" name="departCity"></td>
+				<th><label for="departDate">날짜</th>
+				<td><input type="date" id="departDate"> ~</td>
+			</tr>
+			<tr id="tableUpper">
+				<th>도착지</th>
+				<td><input type="text" id="arrivalCity" name=""arrivalCity""></td>
+				<th></th>
+				<td><input type="date" id="arrivalDate"></td>
+			</tr>
+			
+			<tr id="tableBelow">
+				<td colspan ="4">여행은 몇명이서 가시나요?&nbsp
+				<input type="number">
+			</tr>
+			<tr></tr><tr></tr>
+			
+			<tr>
+				<td colspan="4"><center>
+				<input type="button" id="searchButton" value="검색하기 Search" onclick="check()"></center>
+				</td>
+			</tr>
+			
+			
+		</table>
+	</form>
+</div>
+<!-- 메인검색 페이지 끝-->
+</body>
+</html>
